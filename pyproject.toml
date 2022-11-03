@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "streamlit-synced-widgets"
 version = "0.1.0"
-description = "All of the streamlit widgets, but they automatically sync with the query parameters, to make it easy to share links to your app in a particular state."
+description = "All of the streamlit widgets, but they automatically sync with the app url for better sharability"
 authors = ["Zachary Blackwood <zachary@streamlit.io>"]
 readme = "README.md"
+license = "MIT"
 packages = [{include = "streamlit_synced_widgets", from="src"}]
 
 [tool.poetry.dependencies]
